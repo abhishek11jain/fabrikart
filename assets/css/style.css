@@ -2797,7 +2797,6 @@ header .list-inline .dropdown-menu ul li:last-child a {
     text-align: center;
     margin-bottom: 40px;
 } */
-
 .section-title h2 {
     font-size: 30px;
     line-height: 30px;
@@ -5255,7 +5254,7 @@ header .list-inline .dropdown-menu ul li:last-child a {
 
 header .top-bar {
     padding: 15px 0;
-    border-bottom: 1px solid #ebebeb;
+    border-bottom: 3px solid #b47b00 ;
 }
 
 header .top-bar p {
@@ -5264,6 +5263,7 @@ header .top-bar p {
 
 header .header-area {
     padding: 30px 0;
+    border-top: 3px solid #b47b00 ;
 }
 
 header .logo {
@@ -7441,3 +7441,31 @@ header.header-type-4 .header-text span:first-child {
     z-index: 9950;
 }
 
+/* .top-bar{
+    background: rgb(15, 15, 15);
+}
+.top-bar p{
+    color: #fff;
+} */
+.main-nav-area,
+.main-nav-area.nav-with-search,
+.default-btn:hover,
+#to_top{
+    background: rgb(180,123,0) !important;
+    background: linear-gradient(0deg, rgba(180,123,0,1) 0%, rgba(245,206,122,0.8151086118040967) 100%) !important;
+}
+.product-caption .product-name a,
+.product-price .price-new,
+.footer-copyright a{
+    color: rgb(180,123,0) !important;
+}
+.header-cart button .count-style{
+    background: #000 !important;
+}
+.default-btn {
+    padding: 10px 9px 10px 9px;
+    font-size: 10px;
+    height: auto !important;
+    min-width: auto !important;
+    line-height: normal !important;
+}
